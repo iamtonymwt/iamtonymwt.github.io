@@ -372,3 +372,41 @@ table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
 }
+
+/* index.html: publication / experience tables */
+table.pubtable {
+	color: #444;
+}
+table.pubtable img {
+	box-shadow: 4px 4px 8px #888;
+}
+table.pubtable td.pub-text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 1.35;
+}
+table.pubtable p.pub-title {
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 1.25;
+	color: #527bbd;
+	margin: 0 0 5px 0;
+}
+table.pubtable p.pub-line {
+	margin: 0;
+	line-height: 1.35;
+}
+table.pubtable p.pub-gap {
+	margin-bottom: 5px;
+}
+table.pubtable p.pub-role {
+	font-weight: bold;
+	color: #333;
+}
+table.pubtable a.pub-link {
+	color: #007bff;
+}
+table.pubtable tr.spacer td {
+	height: 4px;
+	padding: 0;
+}
