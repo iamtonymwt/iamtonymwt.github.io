@@ -410,3 +410,25 @@ table.pubtable tr.spacer td {
 	height: 4px;
 	padding: 0;
 }
+
+/* Collapsible Papers / Experience lists */
+table.collapsible:not(.show-all) tr.extra {
+	display: none;
+}
+h2 button.more-toggle {
+	float: right;
+	margin-top: -0.2em;
+	padding: 3px 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #527bbd;
+	background: #fff;
+	border: 1px solid #527bbd;
+	border-radius: 12px;
+	cursor: pointer;
+}
+h2 button.more-toggle:hover {
+	color: #fff;
+	background: #527bbd;
+}
